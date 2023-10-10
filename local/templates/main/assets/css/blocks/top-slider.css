@@ -1,0 +1,37 @@
+.top-slider {
+    height: 320px;
+    background-color: var(--background-color);
+    position: relative;
+    margin-bottom: 50px;
+    box-shadow: 0px 13px 9px -2px rgba(34, 60, 80, 0.2);
+}
+
+
+.swiper-pagination-bullet {
+    background-color: transparent!important;
+    font-size: 15px;
+   }
+
+.swiper-pagination {
+    position: absolute!important;
+    top: 340px!important;
+    left: 0!important;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.swiper-pagination-bullet::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: #e4b376;
+    box-shadow: -4px 5px 10px 2px rgba(78, 44, 30, 0.2) inset;
+    border: 1px solid var(--color-main);
+    display: block;
+    border-radius: 100px;
+    font-size: 10px;
+}
+
+

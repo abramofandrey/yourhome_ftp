@@ -1,0 +1,57 @@
+html {
+    background-image: url("../../img/background.jpg");
+}
+
+body {
+    font-family: "Book Antiqua", "Arial", sans-serif;
+    max-width: 950px;
+    margin: 0 auto;
+    background-image: url('./../../img/body-background-not-shadow.png');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: var(--background-color);
+    box-shadow: 0px 0px 18px 14px rgba(34, 60, 80, 0.2);
+}
+
+.container {
+    max-width: 910px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.visibility-hidden {
+    visibility: hidden;
+}
+
+.title {
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--color-title);
+    margin-bottom: 20px;
+}
+
+button {
+    font-family: "Verdana", "Geneva", "Tahoma", sans-serif;
+    font-weight: 500;
+    color: var(--color-main);
+    text-shadow: var(--text-shadow);
+    text-align: center;
+    background: var(--gradient-main);
+    transition: all 0.4s ease;
+    border: 1px solid var(--border-color);
+}
+
+.services-content__btn:hover {
+    background: var(--gradient-main);
+    color: var(--color-accent);
+    cursor: pointer;
+}
+
+.phone {
+    font-family: "Book Antiqua", "Arial", sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+    color: var(--color-accent);
+}

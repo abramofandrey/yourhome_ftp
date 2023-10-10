@@ -1,0 +1,15 @@
+.benefits {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.benefits__text {
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 130%;
+    color: var(--color-text-button);
+    text-align: justify;
+    text-justify: inter-word;
+}

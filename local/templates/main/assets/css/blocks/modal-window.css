@@ -1,0 +1,185 @@
+.hidden {
+    display: none;
+}
+
+.header-feedback {
+    position: relative;
+}
+
+.header-feedback__modal {
+    width: 320px;
+    padding: 13px 6px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: var(--background-color-modal);
+    border: 1px solid var(--border-color-modal);
+    border-radius: 1px;
+    z-index: 10;
+}
+
+.header-feedback__modal--resume {
+    top: 63px;
+}
+
+.header-feedback__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+
+.header-feedback__form input {
+    width: 100%;
+    height: 33px;
+    background: var(--color-accent);
+    border: 1px solid var(--border-color-modal);
+    padding: 10px 35px 10px 10px;
+    font-family: "Verdana", "Aria", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.header-feedback__form input::placeholder,
+.header-feedback__form textarea::placeholder {
+    color: var(--color-font-input);
+}
+
+.header-feedback__form input:focus::placeholder,
+.header-feedback__form textarea:focus::placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* стили для кастомных селектов ====================== */
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown img {
+    height: 31px;
+    position: absolute;
+    top: 50%;
+    right: 1px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.dropdown__button {
+    position: relative;
+    display: block;
+    width: 306px;
+    height: 33px;
+    text-align: left;
+    background: var(--color-accent);
+    border: 1px solid var(--border-color-modal);
+    padding: 10px 35px 10px 10px;
+    font-family: "Verdana", "Aria", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-font-input);
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dropdown__button:focus,
+.dropdown__button--active {
+    outline: none;
+}
+
+.dropdown__list {
+    display: none;
+    position: absolute;
+    top: 33px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: var(--background-modal);
+    border: 1px solid var(--border-color-modal);
+    overflow: hidden;
+    width: 100%;
+    z-index: 1;
+}
+
+.dropdown__list--visible {
+    display: block;
+}
+
+.dropdown__list-item {
+    margin: 0;
+    padding: 9px 10px;
+    cursor: pointer;
+    font-family: "Verdana", "Aria", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-text-modal);
+    transition: all 0.3s ease;
+}
+
+.dropdown__list-item:hover {
+    background: var(--submenu-fill);
+}
+
+.dropdown__input-hidden {
+    display: none;
+}
+
+.header-feedback__form textarea {
+    width: 100%;
+    height: 75px;
+    background: var(--color-accent);
+    border: 1px solid var(--border-color-modal);
+    padding: 10px 35px 10px 10px;
+    resize: none;
+    margin-bottom: 33px;
+}
+
+.header-feedback__form textarea::placeholder {
+    font-family: "Verdana", "Aria", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.header-feedback__submit-button {
+    width: 143px;
+    height: 26px;
+    border-radius: 4px;
+    font-family: "Verdana", "Aria", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    background: var(--gradient-main);
+    transition: all 0.4s ease;
+}
+
+.header-feedback__submit-button:hover {
+    background: var(--gradient-accent);
+    color: var(--color-main);
+}
+
+/* стилизация input[type='file'] =========================*/
+
+.custom-file-input {
+    display: none; /* Скрываем настоящий input[type="file"] */
+}
+
+.custom-file-label {
+    width: 100%;
+    height: 33px;
+    background: var(--color-accent);
+    border: 1px solid var(--border-color-modal);
+    padding: 10px 35px 10px 10px;
+    font-family: "Verdana", "Aria", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-font-input);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}

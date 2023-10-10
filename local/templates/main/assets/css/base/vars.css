@@ -1,0 +1,73 @@
+:root {
+
+    /* === main color ==== */
+
+    --color-main: #472800;
+    --color-accent: #fff;
+
+    /* === text color === */
+
+    --color-title: #4e2c1e;
+    --color-text: #35190d;
+    --color-text-button: #4e2c1e;
+    --color-font-input: #55493f;
+    --color-text-modal: #45250a;
+    
+    /* === background color ==== */
+
+    --background-color: #fff6ee;
+    --background-footer: #8b694a;
+    --submenu-fill: #d8af75;
+    --background-color-modal: rgba(232, 228, 226, 0.87);
+    --background-modal: #fcebc6;
+    
+    /* === border color === */
+    
+    --border-color: #c7a865;
+    --border-input: #b1b1b1;
+    --border-btn: #d8c992;
+    --border-color-modal: #cd8e31;
+    --border-select-dropdown: #b1b1b1;
+    
+    /* === table color === */
+    --table-border: #e9c06b;
+    --color-accent-row: #744201;
+    --table-header-fill: #814b04;
+    --color-main-text-row: #311f10;
+    --background-row: #fffae9;
+
+    
+    /* === shadow color === */
+
+    --text-shadow: 0px 0px 1px rgba(17, 17, 26, 0.46);
+    --text-shadow-footer: 0px 1px 1px 0px rgba(17, 17, 26, 0.86);
+
+    /* === gradient color === */
+
+    --gradient-main: linear-gradient(
+        0deg,
+        rgba(164, 103, 31, 1) 0%,
+        rgba(131, 76, 11, 1) 14%,
+        rgba(119, 71, 11, 1) 25%,
+        rgba(176, 120, 43, 1) 55%,
+        rgba(233, 192, 135, 1) 100%
+    );
+    --gradient-accent: linear-gradient(
+        0deg,
+        rgba(250, 237, 199, 1) 0%,
+        rgba(234, 207, 143, 1) 13%,
+        rgba(232, 196, 120, 1) 58%,
+        rgba(255, 249, 224, 1) 96%,
+        rgba(255, 249, 224, 1) 100%
+    );
+    --gradient-text: linear-gradient(
+        0deg,
+        rgba(21, 7, 2, 1) 0%,
+        rgba(94, 54, 37, 1) 48%,
+        rgba(130, 69, 28, 1) 75%,
+        rgba(130, 69, 28, 1) 100%
+    );
+    --gradient-top-footer: linear-gradient(0deg, rgba(78,44,30,1) 0%, rgba(78,44,30,1) 100%);
+    --gradient-footer: linear-gradient(0deg, rgba(173, 139, 99, 1) 0%, rgba(78, 44, 30, 1) 100%);
+    --inner-glow: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.7539390756302521) 100%);
+}

@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Book Antiqua";
+    src:
+        url("../../fonts/BookAntiqua.woff2") format("woff2"),
+        url("../../fonts/BookAntiqua.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Book Antiqua";
+    src:
+        url("../../fonts/BookAntiqua-Bold.woff2") format("woff2"),
+        url("../../fonts/BookAntiqua-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Verdana";
+    src:
+        url("../../fonts/Verdana-Bold.woff2") format("woff2"),
+        url("../../fonts/Verdana-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Verdana";
+    src:
+        url("../../fonts/Verdana.woff2") format("woff2"),
+        url("../../fonts/Verdana.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Garamond";
+    src:
+        url("../../fonts/Garamond-Bold.woff2") format("woff2"),
+        url("../../fonts/Garamond-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Garamond";
+    src:
+        url("../../fonts/Garamond.woff2") format("woff2"),
+        url("../../fonts/Garamond.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "GaramondC";
+    src:
+        url("GaramondC-Light.woff2") format("woff2"),
+        url("GaramondC-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "GaramondC";
+    src:
+        url("../../fonts/GaramondC-Bold.woff2") format("woff2"),
+        url("../../fonts/GaramondC-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
